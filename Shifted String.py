@@ -11,6 +11,7 @@ for i in s:
         if int(temp)==temp:
             temp=26
         else:
+            
             temp=abs(math.floor(temp)-temp)*26
             temp=float("%.2f"%temp)
         for ch,val in lst.items():
